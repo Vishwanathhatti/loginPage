@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("https://source.unsplash.com/random") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.loginContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgba(245, 245, 245, 0.152);
+gap: 15px;
+padding: 25px;
+border-radius: 12px;
+}
+.input-group{
+    position: relative;
+    margin: 2px 0;
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    padding: 0 5px;
+    pointer-events: none;
+    color: white;
+    transition: .5s;
+
+}
+.input-group input{
+    width: 320px;
+    height: 40px;
+    background-color: transparent;
+    border: 1.2px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+}
+.input-group input:focus~label{
+    top:-10;
+    font-size: 12px;
+   
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    transition: 200ms;
+    background-color: rgba(245, 245, 245, 0.326);
+    scale: 1.1;
+    color: white;
+}
+
+.btn:hover{
+    
+    scale: 1.2;
+}
+#forgot{
+    width: 100%;
+
+}
+#new{
+   
+    width: 100%;
+    text-align: end;
+}
+
+.signupContainer{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 245, 0.152);
+    gap: 15px;
+    padding: 25px;
+    }

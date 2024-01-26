@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loginContainer" id="loginContainer">
+        <h1 style="color: white;">Login</h1>
+            <div class="input-group">
+            <input type="text" id="user">
+            <label>Username</label>
+            </div>
+            <div class="input-group">
+            <input type="password" id="pass">
+            <label>Password</label>
+            </div>
+            <div class="btn"id="btn" onclick="checkCredentials()" data-link="https://www.linkedin.com/in/vishwanath-hatti-114972251/">
+                Submit
+            </div>
+            <div id="forgot">
+                <a style="color: white;">Forgot Password?</a>
+            </div>
+            <div id="new" onclick="signup()">
+                <span style="color: white;">New Registration?</span>
+            </div>
+            
+    </div>
+
+    <div class="signupContainer">
+        <h1 style="color: white;">Signup</h1>
+        <div class="input-group" >
+            <input type="text" id="sName">
+            <label>Username</label>
+            </div>
+            <div class="input-group">
+            <input type="email" id="sEmail">
+            <label>email-id</label>
+            </div>
+            <div class="input-group">
+            <input type="password" id="sPass" >
+            <label>Password</label>
+            </div>
+            <div class="btn"id="btn" onclick="registered()">
+                Submit
+            </div>        
+
+
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
