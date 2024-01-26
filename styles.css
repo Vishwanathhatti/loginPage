@@ -87,8 +87,4 @@ border-radius: 12px;
     }
 
 
-    @media screen and (max-width:600px) {
-        .loginContainer{
-           scale: 1.2;
-        }
-    }
+
