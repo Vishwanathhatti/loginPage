@@ -85,3 +85,10 @@ border-radius: 12px;
     gap: 15px;
     padding: 25px;
     }
+
+
+    @media screen and (max-width:600px) {
+        .loginContainer{
+           scale: 2;
+        }
+    }
